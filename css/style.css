@@ -1,0 +1,39 @@
+/*-------------------------------------------------------------
+Template Name: PhotoTime
+Template URL: phototime.com
+Author: PhotoTime IT
+Author URL: https://themeforest.net/user/phototime-it/portfolio
+Version: 1.0
+Description: Photography template
+Tags: photography, learning
+Text Domain: phototime
+-------------------------------------------------------------*/
+/*------------------------------------------------------------- 
+TABLE OF CONTENTS: 
+---------------------------------------------------------------
+1. Typography
+2. Header Area
+    2.1 Menu Area
+    2.2 Welcome Text
+    2.3 Social Media
+3. Getting-started Area
+4. Design Area
+5. Community Area
+6. Subscribe Area
+7. Download Area
+8. Footer Area
+
+--------------------------------------------------------------*/
+
+/************* 1. Typography **************/
+
+@font-face {
+    font-family: "gotham rounded";
+    src: url('webfonts/GothamRounded.woff') format (woff);
+}
+body,
+p {
+    font font-family: "gotham rounded";
+    font-size: 16px;
+    font-height: 1.3em;
+}
