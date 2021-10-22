@@ -1,0 +1,427 @@
+/*-------------------------------------------------------------
+Template Name: PhotoTime
+Template URL: phototime.com
+Author: PhotoTime IT
+Author URL: https://themeforest.net/user/phototime-it/portfolio
+Version: 1.0
+Description: Photography template
+Tags: photography, learning
+Text Domain: phototime
+-------------------------------------------------------------*/
+/*------------------------------------------------------------- 
+TABLE OF CONTENTS: 
+---------------------------------------------------------------
+1. Typography
+2. Header Area
+    2.1 Menu Area
+    2.2 Welcome Text
+    2.3 Social Media
+3. Getting-started Area
+4. Design Area
+5. Community Area
+6. Subscribe Area
+7. Download Area
+8. Footer Area
+
+--------------------------------------------------------------*/
+
+/************* 1. Typography **************/
+
+@font-face {
+    font-family: "GothamRoundedBold";
+    src: url('webfonts/GothamRoundedBold.woff') format (woff);
+}
+@font-face {
+    font-family: "GothamRoundedMedium";
+    src: url('webfonts/GothamRoundedMedium.woff') format (woff);
+}
+@font-face {
+    font-family: "GothamRoundedBook";
+    src: url('webfonts/GothamRoundedBook.woff') format (woff);
+}
+body {
+    font-family: "GothamRoundedBook";
+    font-size: 16px;
+    line-height: 1.3em;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+h3 {
+    color: #16A086;
+    font-family: "GothamRoundedBook";
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+h5 {
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-family: "GothamRoundedBook";
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: "GothamRoundedBook";
+    font-size: 10px;
+    color: #373737;
+    letter-spacing: 1px;
+    line-height: 2em;
+}
+
+/******************* 2. Header Area ********************/
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+.header-area {
+    background: url('images/header-slider.jpg') no-repeat 0 0 / 100% 100%;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+/******************  2.1 Menu Area  **************/
+.menu-area ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 25px 0;
+}
+
+.menu-area ul li {
+    display: inline;
+    margin: 0 24px;
+
+}
+.menu-area ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    padding-bottom: 5px;
+    transition: .5s;
+}
+.menu-area ul li a:hover {
+    border-bottom: 1px solid #fff;
+}
+.menu-area ul li .logo img{
+    margin: 0 60px;
+    width: 40px;
+    height: auto;
+}
+.menu-area ul .logo a {
+    border: none;
+}
+.menu-area ul .logo a:hover {
+    border: none;
+}
+/******************** 2.2 Welcome Text *******************/
+.welcome-text {
+    margin: 180px;
+    overflow: hidden;
+}
+
+.btn {
+    text-decoration: none;
+    color: #FFF;
+    background: #16A086;
+    text-transform: uppercase;
+    padding: 16px 30px;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid transparent;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #16A086;
+    border: 1px solid #16A086;
+    transition: 1s;
+}
+/********************* 2.3 Social Media *******************/
+.social-media {
+    overflow: hidden;
+    margin: 30px;
+}
+.social-media ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.social-media ul li {
+    display: inline;
+    margin: 0 10px;
+}
+.social-media ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/********************* 3. Getting-started Area *****************/
+.getting-started {
+    /* background-color: #F5F6F8; */
+    background: #F5F6F8; 
+    overflow: hidden;
+    /* max-height: 350px; */
+}
+.getting-started .text-area {
+    margin-top: 40px;
+    padding-bottom: 30px;
+    background-image: url('images/hand.png');
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: top right;
+}
+/* .getting-started .image-area img {
+    width: 100%;
+    margin-top: 50px;
+} */
+/* .col-1-2 {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+} */
+.getting-started .start-text{
+    width: 50%;
+}
+.text-area p{
+    margin-bottom: 30px;
+}
+/******************* 4. Design Area *********************/
+/* .mobile-area {
+    width: 40%;
+    margin-right: 20%;
+    float: left;
+    overflow: hidden;
+    max-height: 400px;
+} */
+.design-area {
+    margin-top: 100px;
+}
+.design-text {
+    /* margin-top: 100px; */
+    width: 40%;
+    float: right;
+    overflow: hidden;
+}
+.design {
+    background-image: url('images/mobile.png');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top left;
+    overflow: hidden;
+}
+.slide {
+    margin: 40px 0;
+}
+.arrow i {
+    color: #000000;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+/*************************** 5. Community Area *********************/
+.community-area {
+    background-color: #F5F6F8;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.community-area .community {
+    display: block;
+    
+    overflow: hidden;
+}
+.community-area .community .arrow {
+    float: right;
+    
+}
+.community-block {
+    overflow: hidden;
+
+}
+.col-1-2 {
+    width: 14%;
+    margin-top: 50px;
+    padding-right: 10%;
+}
+.col-1-3 {
+    width: 35%;
+}
+.our-community {
+    float: left;
+    overflow: hidden;
+    display:inline;
+    text-align: center;
+
+}
+.our-community h3 {
+    color: #373737;
+
+}
+.our-community p {
+    line-height: 10px;
+    font-weight: bold;
+    color: #373737;
+    
+}
+.img-bus {
+    float: left;
+    overflow: hidden;
+    padding-right: 6%;
+    
+    
+}
+.img-leaf {
+    float: right;
+    
+}
+/********************* 6. Subscribe Area ************************/
+.subscribe-area {
+    background: url('images/last-hand.jpg') no-repeat 0 0 / 100% 100%;
+    padding: 250px 0;
+}
+.subscribe-area h3 {
+    color: #fff;
+    text-align: center;
+}
+.subscribe-area form {
+    width: 250px;
+    margin: 0 auto;
+}
+.subscribe-area form input[type="email"] {
+    background: #FFFFFF;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    float: left;
+    overflow: hidden;
+    margin-right: 0;
+}
+.subscribe-area form button {
+    background: #28A98E;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    /* float: right;
+    overflow: hidden; */
+    /* margin-left: -4px; */
+
+}
+/************************ 7. Download Area *********************/
+.download-area {
+    background-color: #F5F6F8;
+    /* padding: 50px 0; */
+    
+}
+.download {
+    padding: 50px 0;
+}
+.download-area h3 {
+    color: #373737;
+}
+.download-area .download-text {
+    text-align: center;
+}
+.download-area p {
+    text-transform: uppercase;
+    font-family: "GothamRoundedBold";
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.download-area .btnd {
+    text-decoration: none;
+    color: #FFF;
+    background: #53bca7;
+    text-transform: uppercase;
+    padding: 11px 50px 7px 20px;
+    border-radius: 3px 0 0 3px;
+    display: inline-block;
+    border: 1px solid transparent;
+    margin-right: 0;
+}
+.download-area .btnd:hover {
+    background-color: #fff;
+    color: #16A086;
+    border: 1px solid #16A086;
+    transition: 1s;
+} 
+
+.download-area .download-btn .ps i {
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: #16A085;
+    padding: 10px 10px;
+    border-radius: 0 3px 3px 0;
+    margin-left: -4px;
+    
+}
+.download-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    padding-bottom: 40px;
+}
+.download-area .download-btn .apple {
+    float: left;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.download-area .download-btn .android {
+    float: left;
+    overflow: hidden;
+}
+/*********************** 8. Footer Area *************************/
+.footer {
+    padding: 25px 0;
+}
+footer .footer-text {
+    float: left;
+    overflow: hidden;
+}
+footer .footer-img {
+    float: right;
+    overflow: hidden;
+}
+.footer ul {
+    /* text-align: center; */
+    list-style: none;
+    /* margin: 0; */
+    padding: 0;
+}
+.footer nav ul li {
+    display: inline;
+    padding-right: 5px;
+}
+.footer nav ul li:not(:first-child) {
+    padding-left: 5px;
+}
+.footer nav ul li:not(:last-child) {
+    border-right: 1px solid #16A086;
+}
+.footer nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #373737;
+    font-size: 12px;
+    font-family: "GothamRoundedBold";
+}
+
+
+
